@@ -11,7 +11,8 @@
 #include "stm32f4xx.h"
 #include "stm32f4xx_nucleo.h"
 #include "sken_library/include.h"
-			
+#include "math.h"
+
 Gpio led;
 
 Uart serial;
@@ -45,15 +46,15 @@ void make_velo(){
 
 	vx += (vx<Vx)? V_resolution/1000.0 : 0 ;
 	vx -= (vx>Vx)? V_resolution/1000.0 : 0 ;
-	//if(Vx==0) vx=0;
+	if(abs(vx)<1 && Vx==0) vx=0;
 
 	vy += (vy<Vy)? V_resolution/1000.0 : 0 ;
 	vy -= (vy>Vy)? V_resolution/1000.0 : 0 ;
-	//if(Vy==0) vy=0;
+	if(abs(vy)<1 && Vy==0) vx=0;
 
 	omega += (omega<Omega)? Omega_resolution/1000.0 : 0 ;
 	omega -= (omega>Omega)? Omega_resolution/1000.0 : 0 ;
-	//if(Omega==0) omega=0;
+	if(abs(omega)<1 && Omega==0) omega=0;
 }
 
 void send_can(){
