@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.000152] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099278] (-) TimerEvent: {}
+[0.199561] (-) TimerEvent: {}
+[0.299802] (-) TimerEvent: {}
+[0.400073] (-) TimerEvent: {}
+[0.500344] (-) TimerEvent: {}
+[0.600660] (-) TimerEvent: {}
+[0.700940] (-) TimerEvent: {}
+[0.801223] (-) TimerEvent: {}
+[0.901516] (-) TimerEvent: {}
+[1.001794] (-) TimerEvent: {}
+[1.102067] (-) TimerEvent: {}
+[1.198974] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/altair/Documents/S-project/ROS2_Roboware/build/robot_controller/build', 'install', '--record', '/home/altair/Documents/S-project/ROS2_Roboware/build/robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/altair/Documents/S-project/ROS2_Roboware/src/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ja:en', 'USER': 'altair', 'LC_TIME': 'ja_JP.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'STM32CubeMX_PATH': '/home/altair/STM32CubeMX', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/altair', 'OLDPWD': '/home/altair/Documents/S-project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ja_JP.UTF-8', 'SYSTEMD_EXEC_PID': '1326', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'altair', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'altair', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/altair/.local/bin:/home/altair/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/altair/bin:/home/altair/bin', 'SESSION_MANAGER': 'local/altair-ThinkPad-L380:@/tmp/.ICE-unix/1297,unix/altair-ThinkPad-L380:/tmp/.ICE-unix/1297', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ja_JP.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c7889823_7d31_4f02_b562_dca909ca93cd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JCHFW2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/altair/Documents/S-project/ROS2_Roboware/build/robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/altair/Documents/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/Documents/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ja_JP.UTF-8', 'LC_PAPER': 'ja_JP.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.202177] (-) TimerEvent: {}
+[1.302418] (-) TimerEvent: {}
+[1.399508] (robot_controller) StderrLine: {'line': b"/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.399687] (robot_controller) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.402527] (-) TimerEvent: {}
+[1.502766] (-) TimerEvent: {}
+[1.561611] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.588141] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[1.588594] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[1.588872] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[1.589071] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[1.589285] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[1.602877] (-) TimerEvent: {}
+[1.643615] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[1.644120] (robot_controller) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.644214] (robot_controller) StderrLine: {'line': b'  File "/home/altair/Documents/S-project/ROS2_Roboware/src/robot_controller/setup.py", line 5, in <module>\n'}
+[1.644385] (robot_controller) StderrLine: {'line': b'    setup(\n'}
+[1.644453] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[1.644612] (robot_controller) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.644732] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[1.644802] (robot_controller) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[1.644863] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[1.644923] (robot_controller) StderrLine: {'line': b'    dist.run_commands()\n'}
+[1.644980] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[1.645159] (robot_controller) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[1.645222] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/dist.py", line 991, in run_command\n'}
+[1.645279] (robot_controller) StderrLine: {'line': b'    super().run_command(command)\n'}
+[1.645333] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[1.645386] (robot_controller) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[1.645439] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 315, in run\n'}
+[1.645492] (robot_controller) StderrLine: {'line': b'    self.find_sources()\n'}
+[1.645556] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 323, in find_sources\n'}
+[1.645610] (robot_controller) StderrLine: {'line': b'    mm.run()\n'}
+[1.645662] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 549, in run\n'}
+[1.645715] (robot_controller) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[1.645766] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[1.645817] (robot_controller) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[1.645869] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[1.645921] (robot_controller) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[1.645972] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[1.646023] (robot_controller) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[1.646074] (robot_controller) StderrLine: {'line': b'  File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[1.646125] (robot_controller) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[1.646176] (robot_controller) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[1.669452] (robot_controller) CommandEnded: {'returncode': 1}
+[1.669825] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 1}
+[1.680229] (-) EventReactorShutdown: {}

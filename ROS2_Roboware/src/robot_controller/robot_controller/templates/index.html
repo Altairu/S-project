@@ -1,0 +1,35 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Controller</title>
+</head>
+
+<body>
+    <h1>Robot Arm Controller</h1>
+    <p>Select a target location for the robot arm:</p>
+    <button onclick="selectLocation('1')">Location 1 (0, 0, 0)</button>
+    <button onclick="selectLocation('2')">Location 2 (50, 0, 0)</button>
+    <button onclick="selectLocation('3')">Location 3 (0, 50, 0)</button>
+    <button onclick="selectLocation('4')">Location 4 (0, 0, 50)</button>
+    <button onclick="selectLocation('5')">Location 5 (50, 50, 50)</button>
+
+    <script>
+        function selectLocation(location_id) {
+            // フェッチAPIで選択した位置をサーバーに送信
+            fetch('/select_location', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ location_id: location_id })
+            })
+                .then(response => response.json())
+                .then(data => alert(data.message))
+                .catch(error => alert('Error: ' + error));
+        }
+    </script>
+</body>
+
+</html>
