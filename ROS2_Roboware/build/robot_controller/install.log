@@ -10,6 +10,7 @@
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/serial_send_node.cpython-310.pyc
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/share/robot_controller/package.xml
+/home/altair/S-project/ROS2_Roboware/install/robot_controller/share/robot_controller/launch/robot_gazebo_launch.py
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info/dependency_links.txt
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info/requires.txt
 /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info/PKG-INFO

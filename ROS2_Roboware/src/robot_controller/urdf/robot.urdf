@@ -1,0 +1,18 @@
+<robot name="simple_robot">
+  <!-- Root link -->
+  <link name="base_link"/>
+  
+  <!-- First child link -->
+  <joint name="joint1" type="fixed">
+    <parent link="base_link"/>
+    <child link="link1"/>
+  </joint>
+  <link name="link1"/>
+
+  <!-- Second child link -->
+  <joint name="joint2" type="fixed">
+    <parent link="link1"/>
+    <child link="end_effector"/>
+  </joint>
+  <link name="end_effector"/>
+</robot>

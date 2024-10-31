@@ -3,3 +3,4 @@ controller_node = robot_controller.controller_node:main
 rviz_position_node = robot_controller.rviz_position_node:main
 serial_read_node = robot_controller.serial_read_node:main
 serial_send_node = robot_controller.serial_send_node:main
+

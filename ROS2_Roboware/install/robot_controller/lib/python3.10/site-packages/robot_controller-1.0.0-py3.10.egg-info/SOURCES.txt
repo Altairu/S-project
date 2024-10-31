@@ -8,6 +8,7 @@ setup.py
 ../../build/robot_controller/robot_controller.egg-info/requires.txt
 ../../build/robot_controller/robot_controller.egg-info/top_level.txt
 ../../build/robot_controller/robot_controller.egg-info/zip-safe
+launch/robot_gazebo_launch.py
 resource/robot_controller
 robot_controller/__init__.py
 robot_controller/controller_node.py

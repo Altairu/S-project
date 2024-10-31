@@ -1,0 +1,39 @@
+[1.247s] Invoking command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data
+[1.624s] running egg_info
+[1.654s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[1.654s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[1.655s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[1.655s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[1.655s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[1.711s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.711s] Traceback (most recent call last):
+[1.711s]   File "/home/altair/S-project/ROS2_Roboware/src/robot_controller/setup.py", line 5, in <module>
+[1.711s]     setup(
+[1.711s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[1.712s]     return distutils.core.setup(**attrs)
+[1.712s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup
+[1.712s]     return run_commands(dist)
+[1.712s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands
+[1.712s]     dist.run_commands()
+[1.712s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands
+[1.712s]     self.run_command(cmd)
+[1.712s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[1.713s]     super().run_command(command)
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command
+[1.713s]     cmd_obj.run()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[1.713s]     self.find_sources()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[1.713s]     mm.run()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 546, in run
+[1.713s]     self.prune_file_list()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[1.713s]     super().prune_file_list()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[1.713s]     base_dir = self.distribution.get_fullname()
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[1.713s]     return _distribution_fullname(self.get_name(), self.get_version())
+[1.713s]   File "/home/altair/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[1.714s]     canonicalize_version(version, strip_trailing_zero=False),
+[1.714s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[1.739s] Invoked command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller' returned '1': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data

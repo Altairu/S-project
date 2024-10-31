@@ -10,6 +10,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # launchディレクトリをインストールに追加
+        ('share/' + package_name + '/launch', ['launch/robot_gazebo_launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

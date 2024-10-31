@@ -1,0 +1,27 @@
+[1.042s] Invoking command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data
+[1.396s] running egg_info
+[1.396s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[1.396s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[1.397s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[1.397s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[1.397s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[1.429s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.431s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.431s] running build
+[1.431s] running build_py
+[1.431s] copying robot_controller/robot_gazebo_launch.py -> /home/altair/S-project/ROS2_Roboware/build/robot_controller/build/lib/robot_controller
+[1.432s] running install
+[1.432s] running install_lib
+[1.433s] copying /home/altair/S-project/ROS2_Roboware/build/robot_controller/build/lib/robot_controller/robot_gazebo_launch.py -> /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[1.434s] byte-compiling /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller/robot_gazebo_launch.py to robot_gazebo_launch.cpython-310.pyc
+[1.434s] running install_data
+[1.435s] running install_egg_info
+[1.436s] removing '/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info' (and everything under it)
+[1.437s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info
+[1.438s] running install_scripts
+[1.457s] Installing controller_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.458s] Installing rviz_position_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.458s] Installing serial_read_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.458s] Installing serial_send_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.458s] writing list of installed files to '/home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log'
+[1.486s] Invoked command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller' returned '0': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data

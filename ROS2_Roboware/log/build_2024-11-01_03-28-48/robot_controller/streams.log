@@ -1,0 +1,27 @@
+[1.122s] Invoking command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data
+[1.513s] running egg_info
+[1.513s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[1.513s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[1.514s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[1.514s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[1.514s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[1.552s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.553s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.553s] running build
+[1.553s] running build_py
+[1.553s] copying robot_controller/rviz_position_node.py -> /home/altair/S-project/ROS2_Roboware/build/robot_controller/build/lib/robot_controller
+[1.554s] running install
+[1.554s] running install_lib
+[1.555s] copying /home/altair/S-project/ROS2_Roboware/build/robot_controller/build/lib/robot_controller/rviz_position_node.py -> /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[1.556s] byte-compiling /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller/rviz_position_node.py to rviz_position_node.cpython-310.pyc
+[1.557s] running install_data
+[1.557s] running install_egg_info
+[1.559s] removing '/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info' (and everything under it)
+[1.559s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages/robot_controller-1.0.0-py3.10.egg-info
+[1.560s] running install_scripts
+[1.581s] Installing controller_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.581s] Installing rviz_position_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.581s] Installing serial_read_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.581s] Installing serial_send_node script to /home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/robot_controller
+[1.581s] writing list of installed files to '/home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log'
+[1.614s] Invoked command in '/home/altair/S-project/ROS2_Roboware/src/robot_controller' returned '0': PYTHONPATH=/home/altair/S-project/ROS2_Roboware/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/S-project/ROS2_Roboware/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/altair/S-project/ROS2_Roboware/build/robot_controller/build install --record /home/altair/S-project/ROS2_Roboware/build/robot_controller/install.log --single-version-externally-managed install_data
